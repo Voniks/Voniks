@@ -1,0 +1,18 @@
+.nav {
+  background-color: black;
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+}
+
+.nav-element {
+  color: white;
+  padding: 1.3rem;
+}
+
+.nav-left {
+  margin-right: auto;
+}
+
+.nav-right {
+  margin-left: auto;
+}
