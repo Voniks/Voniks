@@ -1,18 +1,42 @@
 .nav {
-  background-color: black;
-  padding-left: 0.65rem;
-  padding-right: 0.65rem;
+  position: fixed;
+  width: 100%;
 }
 
-.nav-element {
-  color: white;
-  padding: 1.3rem;
+.nav ul {
+  float: right;
+  margin-right: 2rem;
 }
 
-.nav-left {
-  margin-right: auto;
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: black;
+  font-size: 1rem;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: orange;
 }
 
 .nav-right {
-  margin-left: auto;
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    margin: auto;
+  }
+
+  .nav ul {
+    float: none;
+  }
+
+  .nav a {
+    font-size: 0.8rem;
+  }
 }
