@@ -2,13 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-intro {
-  font-size: large;
+.App-header {
+  min-height: 100%;
 }
 
 @keyframes App-logo-spin {
@@ -29,6 +24,10 @@
   background: black no-repeat center center;
   color: #f8f8f8;
   text-align: center;
+}
+
+.landing {
+  margin: 50% 0;
 }
 
 .landing-divider {
