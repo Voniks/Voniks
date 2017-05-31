@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
+import Products from "./Products";
 import "../styles/App.css";
 import "../styles/Flex.css";
 
@@ -17,6 +18,7 @@ class App extends Component {
         </section>
         <section id="products">
           <h3>Products</h3>
+          <Products />
         </section>
         <section id="catering">
           <h3>Catering</h3>
