@@ -11,13 +11,6 @@
   font-size: large;
 }
 
-.landing-header {
-  background-size: cover;
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIejpVzB6XZ6sWcu5HtxziI5iCx5FP0RPuOo854XLHgfFNtxOSnbyS85JJ) no-repeat center center;
-  color: #f8f8f8;
-  text-align: center;
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
