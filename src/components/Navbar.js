@@ -4,10 +4,10 @@ import Logo from "../images/voniks-logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-inverse navbar-static-top" role="navigation">
+    <nav className="navbar navbar-inverse navbar-static-top">
         <div className="container">
             <div id="hamburger-menu" className="navbar-header pull-right">
-                <button type="button" className="navbar-toggle collapsed" data-toggle="collapse">
+                <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                   <span className="sr-only">Toggle navigation</span>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
@@ -15,14 +15,15 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <img id="logo" src={Logo} alt="Voniks Logo" />
-            <div className="collapse navbar-collapse">
+            <a href="#home">
+              <img id="logo" src={Logo} alt="Voniks Logo" />
+            </a>
+            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul className="nav navbar-nav pull-right">
-                  <li><a href="index.php">Home</a></li>
-                  <li><a href="about.php">About</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="contact.php">Contact</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#locations">Locations</a></li>
+                  <li><a href="#products">Products</a></li>
+                  <li><a href="#catering">Catering</a></li>
                 </ul>
             </div>
         </div>
