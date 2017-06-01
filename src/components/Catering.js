@@ -29,7 +29,7 @@ class Catering extends Component {
             <h2>Please complete this form:</h2>
             <p>A representative will get back to you shortly</p> <br />
             {/*Complete form submission details*/}
-            <form>
+            <form className="catering-form">
               <div className="form-group">
                 <label for="text">Name</label>
                 <input type="text" className="form-control" />
