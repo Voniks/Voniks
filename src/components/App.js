@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Catering from "./Catering";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
 import Products from "./Products";
@@ -22,6 +23,7 @@ class App extends Component {
         </section>
         <section id="catering">
           <h3>Catering</h3>
+          <Catering />
         </section>
       </div>
     );
