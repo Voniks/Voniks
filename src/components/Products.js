@@ -4,7 +4,7 @@ import '../styles/Products.css';
 
 const Products = () => {
   return (
-    <div id="products" className="container-fluid">
+    <div className="container-fluid">
       <Carousel />
     </div>
   );
