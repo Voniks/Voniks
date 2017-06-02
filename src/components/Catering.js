@@ -31,8 +31,7 @@ class Catering extends Component {
           </div>
           :
           <div>
-            <h2>Please complete this form:</h2>
-            <p>A representative will get back to you shortly</p> <br />
+            <h2>Please complete this form:</h2><br />
             {/*Complete form submission details*/}
             <form className="catering-form">
               <div className="form-group">
