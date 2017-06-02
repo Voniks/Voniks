@@ -59,5 +59,10 @@ body {
 }
 
 section {
-  padding: 5%;
+  padding: 2%;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 2% 0;
 }
