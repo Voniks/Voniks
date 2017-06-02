@@ -4,7 +4,7 @@ import Logo from "../images/voniks-logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-inverse navbar-static-top">
+    <nav className="navbar navbar-inverse navbar-fixed-top">
       <div className="container-fluid">
         <div id="hamburger-menu" className="navbar-header pull-right">
           <button

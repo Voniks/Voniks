@@ -1,3 +1,24 @@
+#catering {
+  padding: 5% 0;
+}
+
+#catering .btn {
+  margin: 2%;
+}
+
+#catering p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.catering-divider {
+  border: 1px solid red;
+  width: 5%;
+}
+
 .catering-form {
   text-align: left;
 }
+
