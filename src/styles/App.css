@@ -14,3 +14,8 @@
 .list-inline {
   list-style: none;
 }
+
+.section-divider {
+  border: 1px solid red;
+  width: 5%;
+}

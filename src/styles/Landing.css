@@ -2,8 +2,7 @@
   background-size: cover;
   background: url('./../images/landing-img.jpg') no-repeat center center;
   color: #f8f8f8;
-  padding: 21% 0;
-  text-align: center;
+  padding: 25% 0;
 }
 
 .landing-header h1 {

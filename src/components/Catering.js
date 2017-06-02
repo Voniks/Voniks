@@ -22,7 +22,7 @@ class Catering extends Component {
         {!this.state.showForm ?
           <div>
             <h2>Get in touch for catering!</h2>
-            <hr className="catering-divider"/>
+            <hr className="section-divider"/>
             <p>
               Ready to share our delicious smooothies with friends, family or coworkers? Great! Please hit the button below
               and we will get back to you as soon!
