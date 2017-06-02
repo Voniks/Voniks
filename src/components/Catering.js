@@ -33,21 +33,21 @@ class Catering extends Component {
           <div>
             <h2>Please complete this form:</h2><br />
             {/*Complete form submission details*/}
-            <form action="/catering" className="catering-form" method="POST">
+            <form action="" className="catering-form" method="POST">
               <div className="form-group">
                 <label for="text">Name</label>
-                <input type="text" className="form-control" />
+                <input type="text" name="name" className="form-control" />
               </div>
               <div className="form-group">
                 <label for="email">Email Address:</label>
-                <input type="email" className="form-control" />
+                <input type="email" name="email" className="form-control" />
               </div>
               <div className="form-group">
                 <label for="tel">Phone Number:</label>
-                <input type="tel" className="form-control" />
+                <input type="tel" name="phone" className="form-control" />
               </div>
               <div className="form-group">
-                <textarea className="form-control" rows="6" placeholder="Description"></textarea>
+                <textarea className="form-control" name="description" rows="6" placeholder="Description"></textarea>
               </div>
               <input type="submit" value="Send" className="btn btn-primary btn-lg" />
               <input type="reset" value="Return" onClick={this.onClick} className="btn btn-primary btn-lg" />
