@@ -10,6 +10,10 @@
   font-size: 75px;
 }
 
+.landing-header h3 {
+  color: #4B3D3D;
+}
+
 .landing-divider {
   border: 1px solid #f8f8f8;
   width: 35%;
