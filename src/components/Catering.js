@@ -21,8 +21,13 @@ class Catering extends Component {
       <div className="container">
         {!this.state.showForm ?
           <div>
-            <h2>We Cater Too!</h2>
-            <a href="#catering" className="btn btn-primary btn-lg" role="button" onClick={this.onClick}>Request Information!</a>
+            <h2>Get in touch for catering!</h2>
+            <hr className="catering-divider"/>
+            <p>
+              Ready to share our delicious smooothies with friends, family or coworkers? Great! Please hit the button below
+              and we will get back to you as soon!
+            </p>
+            <a href="#catering" className="btn btn-primary btn-lg" role="button" onClick={this.onClick}>Request Info</a>
           </div>
           :
           <div>

@@ -7,7 +7,7 @@ class Landing extends Component {
       <header className="landing-header">
         <div className="container">
           <h1>Welcome to Voniks!</h1>
-          <h3>Awesome, Delicious, Healthy, All Natural</h3>
+          <h3>Awesome, Delicious, Healthy, All Natural Smoothies</h3>
           <hr className="landing-divider" />
           <ul className="list-inline landing-buttons">
             <li><a href="#locations" className="btn btn-primary btn-lg" role="button">Locations</a></li>
