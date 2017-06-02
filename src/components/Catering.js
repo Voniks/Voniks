@@ -33,7 +33,7 @@ class Catering extends Component {
           <div>
             <h2>Please complete this form:</h2><br />
             {/*Complete form submission details*/}
-            <form className="catering-form">
+            <form action="/catering" className="catering-form" method="POST">
               <div className="form-group">
                 <label for="text">Name</label>
                 <input type="text" className="form-control" />
