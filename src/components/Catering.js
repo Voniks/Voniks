@@ -32,7 +32,6 @@ class Catering extends Component {
           :
           <div>
             <h2>Please complete this form:</h2><br />
-            {/*Complete form submission details*/}
             <form action="" className="catering-form" method="POST">
               <div className="form-group">
                 <label for="text">Name</label>
