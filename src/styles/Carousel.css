@@ -2,6 +2,30 @@
   padding: 5rem;
 }
 
-#carousel img {
-  height: 15rem;
+.carousel-img-container {
+  height: 164px;
+  overflow: hidden;
+}
+
+.carousel-img-container img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+  .carousel-img-container {
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .carousel-img-container {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .carousel-img-container {
+    height: 80px;
+  }
 }
