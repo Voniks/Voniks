@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Catering from "./Catering";
-import Contact from "./Contact";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Landing from "./Landing";
@@ -27,9 +26,6 @@ class App extends Component {
         </section>
         <section id="catering">
           <Catering />
-        </section>
-        <section id="contact">
-          <Contact />
         </section>
         <Footer />
       </div>
