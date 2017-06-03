@@ -32,7 +32,7 @@ class Catering extends Component {
           :
           <div>
             <h2>Please complete this form:</h2><br />
-            <form action="" className="catering-form" method="POST">
+            <form action="https://formspree.io/guestservice@voniksjuice.com" className="catering-form" method="POST">
               <div className="form-group">
                 <label for="text">Name</label>
                 <input type="text" name="name" className="form-control" />
